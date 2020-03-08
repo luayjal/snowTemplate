@@ -89,11 +89,21 @@ text-align: center;
 }
 .header .header_content button:first-child
 {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .header .header_content button:last-child
 {
     background-color:#8be2e5 ;
+    color: white;
+}
+.header .header_content button:first-child :hover
+{
+    background: rgb(209, 209, 209);
+    
+}
+header .header_content button:last-child:hover
+{
+    background-color:#7cd1d4 ;
     color: white;
 }
 .header .header_footer
